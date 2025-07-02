@@ -10,13 +10,14 @@ function Student(props){
     )
 }
 Student.propTypes = {
-    name : PropTypes.string,
-    age : PropTypes.number,
-    isStudent : PropTypes.bool,
-}
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired,
+  isStudent: PropTypes.bool.isRequired,
+};
 Student.defaultProps = {
     name : 'Unknown',
     age : 0,
     isStudent : false,
 }
+console.log('PropTypes:', PropTypes);
 export default Student

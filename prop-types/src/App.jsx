@@ -6,7 +6,7 @@ function App(){
     <Student name='Usama' age={24} isStudent={true}/>
     <Student name='Ahmad' age={34} isStudent={true}/>
     <Student name='Ali' age={3} isStudent={false}/>
-    <Student/>
+    <Student />
     </>
   )
 }
