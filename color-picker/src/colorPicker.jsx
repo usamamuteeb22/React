@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 function ColorPicker(){
-    const [color, selectColor] = useState('black')
+    const [color, selectColor] = useState('grey')
     return(
         <div className='container'>
             <h1>Color Picker</h1>
